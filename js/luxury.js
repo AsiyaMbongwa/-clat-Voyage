@@ -74,11 +74,11 @@ function getPropertyName(propertyId) {
 
 function getPropertyPrice(propertyId) {
     const prices = {
-        'bali-villa': '$1,500 / night',
-        'santorini-residence': '$2,200 / night',
-        'swiss-alpine': '$2,800 / night'
+        'bali-villa': 'R1,500 / night',
+        'santorini-residence': 'R2,200 / night',
+        'swiss-alpine': 'R2,800 / night'
     };
-    return prices[propertyId] || '$2,000 / night';
+    return prices[propertyId] || 'R2,000 / night';
 }
 
 
@@ -859,7 +859,7 @@ function showContactForm(propertyId) {
                         </div>
                         <div class="form-group">
                             <label>Phone Number</label>
-                            <input type="tel" class="luxury-input" name="phone" placeholder="+1 (555) 123-4567">
+                            <input type="tel" class="luxury-input" name="phone" placeholder="+27 78 595 5937">
                         </div>
                     </div>
                 </div>
