@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éclat Voyage | Curated Luxury Escapes</title>
+    <link rel="stylesheet" href="styles/luxury.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="luxury-loader" id="luxuryLoader">
+        <div class="loader-diamond"></div>
+    </div>
+
+    
+    <nav class="luxury-nav">
+        <div class="nav-container">
+            <div class="logo luxury-gold-text">Éclat Voyage</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Sanctuaries</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#concierge">Concierge</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="member-status">⬤ PREMIUM MEMBER</div>
+                <a href="#access" class="nav-btn">Private Access</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="cinematic-hero" id="home">
+        <div class="hero-content">
+            <h1 class="luxury-gold-text">Where Dreams Find Their Address</h1>
+            <p>Privileged access to the world's most extraordinary private residences and bespoke travel experiences, meticulously curated for the discerning few.</p>
+
+            <div class="diamond-separator"></div>
+
+            <div class="hero-btns">
+                <a href="#collections" class="btn-luxury-primary">Discover Our Collection</a>
+                <a href="#concierge" class="btn-luxury-secondary">Concierge Services</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <section class="luxury-search">
+        <div class="search-container">
+            <div class="search-grid">
+                <div class="search-item">
+                    <input type="text" placeholder="Destination" value="Santorini">
+                </div>
+                <div class="search-item">
+                    <input type="text" placeholder="Check-in" value="2025/12/15">
+                </div>
+                <div class="search-item">
+                    <input type="text" placeholder="Check-out" value="2025/12/22">
+                </div>
+                <div class="search-item">
+                    <select>
+                        <option>2 guests</option>
+                        <option>4 guests</option>
+                        <option>6+ guests</option>
+                    </select>
+                </div>
+                <div class="search-item">
+                    <button class="search-btn" id="curateEscapeBtn">Curate My Escape</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="luxury-globe">
+        <div class="globe-point" data-location="Santorini"></div>
+        <div class="globe-point" data-location="Bali"></div>
+    </div>
+
+    
+    <section class="private-jet-section">
+        <div class="jet-booking">...</div>
+    </section>
+
+    
+    <section class="exclusive-access" id="collections">
+        <div class="section-header">
+            <span class="section-tag">Exclusive Privileges</span>
+            <h2 class="section-title luxury-gold-text">Beyond Extraordinary Stays</h2>
+            <p>Every Éclat Voyage reservation unlocks a world of bespoke services and exclusive amenities designed to transform your journey into an unforgettable narrative.</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card luxury-float">
+                <div class="feature-icon"></div>
+                <h3 class="feature-title">Private Residences</h3>
+                <p>Architectural masterpieces and hidden gems unavailable on any other platform, from private islands to mountain sanctuaries.</p>
+            </div>
+
+            <div class="feature-card luxury-float">
+                <div class="feature-icon"></div>
+                <h3 class="feature-title">Bespoke Experiences</h3>
+                <p>Private vineyard tours, Michelin-starred chefs, helicopter transfers - every detail curated to your preferences.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"></div>
+                <h3>Private Yacht Access</h3>
+                <p>Complimentary yacht days with captain</p>
+            </div>
+
+            <div class="feature-card luxury-float">
+                <div class="feature-icon"></div>
+                <h3 class="feature-title">24/7 Concierge</h3>
+                <p>Your personal travel curator available around the clock to orchestrate every aspect of your perfect escape.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="signature-collection" id="destinations">
+        <div class="section-header">
+            <span class="section-tag">Signature Collection</span>
+            <h2 class="section-title luxury-gold-text">Curated Architectural Masterpieces</h2>
+        </div>
+
+
+
+        <div class="properties-grid">
+            <!--  Bali -->
+            <div class="property-card">
+                <div class="luxury-badge">EXCLUSIVE</div>
+                <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&w=1200" alt="Bali Paradise Villa" class="property-image">
+                <div class="property-overlay">
+                    <div class="price-from">FROM</div>
+                    <div class="property-price">R1,500 / night</div>
+                    <div class="property-location">Ubud, Bali • Private Villa</div>
+                    <p>An architectural marvel nestled in the Balinese jungle with infinity pool and private staff.</p>
+                    <div class="amenities">
+                        <span class="amenity-tag">Infinity Pool</span>
+                        <span class="amenity-tag">Private Chef</span>
+                        <span class="amenity-tag">Spa</span>
+                    </div>
+                    <div class="property-actions">
+                        <button class="btn-view-details" data-property="bali-villa">View Details</button>
+                        <button class="btn-virtual-tour" data-property="bali-villa"> Virtual Tour</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--  Santorini -->
+            <div class="property-card">
+                <div class="luxury-badge">PREMIUM</div>
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&w=1200" alt="Santorini Elite Residence" class="property-image">
+                <div class="property-overlay">
+                    <div class="price-from">FROM</div>
+                    <div class="property-price">R2,200 / night</div>
+                    <div class="property-location">Santorini, Greece • Cave Residence</div>
+                    <p>Dramatic cliffside sanctuary with panoramic caldera views and private wine cellar.</p>
+                    <div class="amenities">
+                        <span class="amenity-tag">Wine Cellar</span>
+                        <span class="amenity-tag">Panoramic Views</span>
+                        <span class="amenity-tag">Private Beach</span>
+                    </div>
+                    <div class="property-actions">
+                        <button class="btn-view-details" data-property="santorini-residence">View Details</button>
+                        <button class="btn-virtual-tour" data-property="santorini-residence"> Virtual Tour</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--  Swiss Alps -->
+            <div class="property-card">
+                <div class="luxury-badge">EXCLUSIVE</div>
+                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&w=1200" alt="Swiss Alpine Retreat" class="property-image">
+                <div class="property-overlay">
+                    <div class="price-from">FROM</div>
+                    <div class="property-price">R2,800 / night</div>
+                    <div class="property-location">Zermatt, Switzerland • Alpine Lodge</div>
+                    <p>Luxurious ski-in/ski-out retreat with private spa and breathtaking Matterhorn views.</p>
+                    <div class="amenities">
+                        <span class="amenity-tag">Private Ski Lift</span>
+                        <span class="amenity-tag">Alpine Spa</span>
+                        <span class="amenity-tag">Fireplace</span>
+                    </div>
+                    <div class="property-actions">
+                        <button class="btn-view-details" data-property="swiss-alpine">View Details</button>
+                        <button class="btn-virtual-tour" data-property="swiss-alpine"> Virtual Tour</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+   
+    <section class="voices-distinction" id="experiences">
+        <div class="section-header">
+            <span class="section-tag">Signature Experiences</span>
+            <h2 class="section-title luxury-gold-text">Voices of Distinction</h2>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    "Our stay in the Swiss Alps was nothing short of magical. The attention to detail from the private ski instructor to the in-residence sommelier transformed our vacation into a masterpiece of luxury."
+                </div>
+                <div class="testimonial-author">Emma Rodriguez</div>
+                <div class="testimonial-location">Madrid, Spain</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    "The Santorini residence exceeded every expectation. Waking up to that breathtaking caldera view with breakfast prepared by our private chef was worth every moment. This is how travel should feel."
+                </div>
+                <div class="testimonial-author">Sarah Johnson</div>
+                <div class="testimonial-location">New York, USA</div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="eclat-circle" id="concierge">
+        <div class="section-header">
+            <span class="section-tag">By Invitation Only</span>
+            <h2 class="section-title luxury-gold-text">The Éclat Circle</h2>
+            <p>An exclusive community of distinguished travelers with access to our most coveted properties and experiences.</p>
+
+            <div class="member-badge-large">◆</div>
+
+            <div class="circle-features">
+                <div class="circle-feature">
+                    <h3>Priority Access</h3>
+                    <p>First refusal on new properties and peak season dates</p>
+                </div>
+                <div class="circle-feature">
+                    <h3>Dedicated Concierge</h3>
+                    <p>Your personal travel curator available 24/7</p>
+                </div>
+            </div>
+
+            <a href="mailto:concierge@eclatvoyage.com?subject=Luxury Inquiry" class="btn-luxury-primary">Request Invitation</a>
+        </div>
+    </section>
+
+    
+    <section class="ai-concierge-section">
+        <div class="concierge-widget">...</div>
+    </section>
+
+    
+    <section class="nft-gallery-section">
+        <div class="nft-showcase">...</div>
+    </section>
+
+    
+    <section id="private-islands" class="collection-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Private Island Sanctuaries</h2>
+            <p>Exclusive access to the world's most secluded and breathtaking private islands</p>
+        </div>
+
+        <div class="island-features">
+            <div class="features-grid">
+                <div class="feature">
+                    <h3> Complete Privacy</h3>
+                    <p>Your own island paradise with no other guests for ultimate seclusion</p>
+                </div>
+                <div class="feature">
+                    <h3> Dedicated Staff</h3>
+                    <p>Private chef, butler, and concierge team exclusively for your party</p>
+                </div>
+                <div class="feature">
+                    <h3> Private Marina</h3>
+                    <p>Direct access for yachts and private water transport</p>
+                </div>
+                <div class="feature">
+                    <h3> Unlimited Activities</h3>
+                    <p>From private beaches to water sports, curated to your preferences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="alpine-retreats" class="collection-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Alpine Retreats</h2>
+            <p>Luxury mountain lodges with breathtaking alpine views</p>
+        </div>
+    </section>
+
+    <section id="urban-sanctuaries" class="collection-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Urban Sanctuaries</h2>
+            <p>Penthouse residences in the world's most vibrant cities</p>
+        </div>
+    </section>
+
+    <section id="coastal-villas" class="collection-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Coastal Villas</h2>
+            <p>Beachfront properties with private ocean access</p>
+        </div>
+    </section>
+
+    <!-- Services Sections -->
+    <section id="concierge" class="service-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Concierge Services</h2>
+            <p>24/7 personalized travel curation and assistance</p>
+        </div>
+    </section>
+
+    <section id="private-aviation" class="service-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Private Aviation</h2>
+            <p>Luxury aircraft and helicopter transfers</p>
+        </div>
+    </section>
+
+    <section id="event-planning" class="service-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Event Planning</h2>
+            <p>Bespoke celebrations and corporate retreats</p>
+        </div>
+    </section>
+
+    <section id="security" class="service-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text"> Security Services</h2>
+            <p>Comprehensive protection ensuring privacy and peace of mind</p>
+        </div>
+
+        <div class="security-features">
+            <div class="security-grid">
+                <div class="security-item">
+                    <h3> Executive Protection</h3>
+                    <p>Highly trained security personnel for VIP clients and high-profile guests</p>
+                </div>
+                <div class="security-item">
+                    <h3> Property Security</h3>
+                    <p>State-of-the-art surveillance and access control systems at all properties</p>
+                </div>
+                <div class="security-item">
+                    <h3> Digital Privacy</h3>
+                    <p>Secure communications and data protection for complete confidentiality</p>
+                </div>
+                <div class="security-item">
+                    <h3> Secure Transport</h3>
+                    <p>Armored vehicles and trained drivers for safe transportation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="press" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Press Inquiries</h2>
+            <p>Media and press relations</p>
+        </div>
+    </section>
+
+    
+    <section id="partnerships" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title luxury-gold-text">Strategic Partnerships</h2>
+            <p>Collaborating with world-renowned luxury brands to elevate the guest experience</p>
+        </div>
+
+        <div class="partnerships-content">
+            <div class="partnerships-grid">
+                <div class="partnership-card">
+                    <h3> Luxury Automotive</h3>
+                    <p>Exclusive vehicle partnerships with Rolls-Royce, Bentley, and Mercedes-Maybach for private transfers</p>
+                </div>
+                <div class="partnership-card">
+                    <h3> Fine Wines & Spirits</h3>
+                    <p>Curated selections from Dom Pérignon, Macallan, and premium vineyards worldwide</p>
+                </div>
+                <div class="partnership-card">
+                    <h3> Luxury Retail</h3>
+                    <p>Personal shopping experiences with Hermès, Chanel, and Cartier</p>
+                </div>
+                <div class="partnership-card">
+                    <h3> Art & Culture</h3>
+                    <p>Partnerships with Sotheby's, Gagosian, and exclusive art galleries</p>
+                </div>
+            </div>
+
+            <div class="partnership-cta">
+                <p>Interested in collaborating with Éclat Voyage?</p>
+
+                <a href="mailto:partnerships@eclatvoyage.com" class="btn-luxury-primary">Propose Partnership</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="luxury-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo luxury-gold-text">Éclat Voyage</div>
+                <p class="footer-description">Where extraordinary experiences find their home. Curating unparalleled luxury for the world's most discerning travelers.</p>
+                <div class="awards">
+                    <span class="award-tag">Forbes Travel Guide</span>
+                    <span class="award-tag">Condé Nast Award 2025</span>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Collections</h4>
+                <ul class="footer-links">
+                    <li><a href="#private-islands">Private Islands</a></li>
+                    <li><a href="#alpine-retreats">Alpine Retreats</a></li>
+                    <li><a href="#urban-sanctuaries">Urban Sanctuaries</a></li>
+                    <li><a href="#coastal-villas">Coastal Villas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#concierge">Concierge</a></li>
+                    <li><a href="#aviation">Private Aviation</a></li>
+                    <li><a href="#events">Event Planning</a></li>
+                    <li><a href="#security">Security</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="tel:+15552314356">+1 (555) 231-4356</a></li>
+                    <li><a href="mailto:concierge@eclatvoyage.com">concierge@eclatvoyage.com</a></li>
+                    <li><a href="#press">Press Inquiries</a></li>
+                    <li><a href="#partnerships">Partnerships</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Éclat Voyage. All rights reserved. Luxury redefined.</p>
+        </div>
+    </footer>
+
+    <script src="js/luxury.js"></script>
+</body>
+</html>
